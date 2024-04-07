@@ -12,9 +12,10 @@ fake = Faker()
 
 with app.app_context():
 
-    Review.query.delete()
-    User.query.delete()
-    Game.query.delete()
+    
+    # User.query.delete()
+    # Game.query.delete()
+    # Review.query.delete()
 
     users = []
     for i in range(3):
